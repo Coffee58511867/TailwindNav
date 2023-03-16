@@ -24,7 +24,7 @@ export default function AddItem() {
         resetField("description");
       }
       if (!response) {
-       window.alert("Item not added");
+        window.alert("Item not added");
       }
       return response.data;
     } catch (error) {
@@ -59,7 +59,7 @@ export default function AddItem() {
         <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
           <div className="w-full px-6 py-4 mt-6 overflow-hidden bg-white shadow-md sm:max-w-md sm:rounded-lg sm:mt-50 ">
             <form onSubmit={handleSubmit(onSubmit)} noValidate>
-            <h3 className="text-4xl font-bold text-gray-600 mt-5 text-center mb-6">
+              <h3 className="text-4xl font-bold text-gray-600 mt-5 text-center mb-6">
                 Add Item to List
               </h3>
               <div>
@@ -130,6 +130,13 @@ export default function AddItem() {
                 </p>
               </div>
             ))}
+          </div>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 ">
+            <div className="w-6">01</div>
+            <div>01</div>
+            <div>01</div>
+            <div>01</div>
+            <div>09</div>
           </div>
         </div>
       </div>

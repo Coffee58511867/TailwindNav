@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
-export default function NavBar() {
+export default function NavBar2() {
 
   const [navbar, setNavbar] = useState(false);
   return (
     <div className="sti">
-      <nav className="nav w-full shadow">
+      <nav className="w-full bg-white shadow">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -14,7 +14,7 @@ export default function NavBar() {
                         </a>
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-white-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -57,10 +57,10 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white-600 hover:text-blue-600">
+                            <li className="text-gray-600 hover:text-blue-600">
                                 <a href="/">Home</a>
                             </li>
-                            <li className="text-white-600 hover:text-blue-600">
+                            <li className="text-gray-600 hover:text-blue-600">
                                 <a href="/">Blog</a>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
