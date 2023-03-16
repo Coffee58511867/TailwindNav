@@ -131,13 +131,13 @@ export default function AddItem() {
               </div>
             ))}
           </div>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 ">
+          {/* <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 ">
             <div className="w-6">01</div>
             <div>01</div>
             <div>01</div>
             <div>01</div>
             <div>09</div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
