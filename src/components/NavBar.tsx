@@ -63,16 +63,16 @@ export default function NavBar() {
                             <li className="text-white-600 hover:text-blue-600">
                                 <a href="/">Blog</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white-600 hover:text-blue-600">
                                 <a href="/">About US</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white-600 hover:text-blue-600">
                                 <a href="/">Contact US</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white-600 hover:text-blue-600">
                                 <a href="/">Contact US</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white-600 hover:text-blue-600">
                                 <a href="/">Contact US</a>
                             </li>
                         </ul>
