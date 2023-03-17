@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import AddItem from './components/AddItem';
-import NavBar from './components/NavBar';
+import NavBar3 from './components/NavBar3';
 
 function App() {
   return (
 <div>
-  <NavBar />
+  <NavBar3 />
   <AddItem />
 </div>
   );
