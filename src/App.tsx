@@ -8,6 +8,8 @@ function App() {
 <div>
   <NavBar3 />
   <AddItem />
+
+
 </div>
   );
 }

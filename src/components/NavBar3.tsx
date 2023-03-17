@@ -4,6 +4,7 @@ export default function NavBar3() {
   const [navbar, setNavbar] = useState(false);
 
   return (
+    <div className="sti">
     <nav className="w-full bg-purple-500 shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
@@ -102,5 +103,6 @@ export default function NavBar3() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
