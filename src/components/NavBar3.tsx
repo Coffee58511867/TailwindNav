@@ -67,7 +67,7 @@ export default function NavBar3() {
                 <a href="/">About US</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="/">Contact US</a>
+                <a href="/profile">My Profile</a>
               </li>
             </ul>
 
@@ -89,13 +89,13 @@ export default function NavBar3() {
         </div>
         <div className="hidden space-x-2 md:inline-block">
           <a
-            href="/"
+            href="/login"
             className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
           >
             Sign in
           </a>
           <a
-            href="/"
+            href="/register"
             className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
           >
             Sign up

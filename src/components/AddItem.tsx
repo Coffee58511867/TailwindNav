@@ -3,6 +3,7 @@ import IItem from "../models/item.type";
 import { useForm } from "react-hook-form";
 import instance from "../api/api";
 import axios from "axios";
+import NavBar3 from "./NavBar3";
 
 export default function AddItem() {
   const [items, setItems] = useState<IItem[]>([]);
@@ -55,6 +56,7 @@ export default function AddItem() {
   }, []);
   return (
     <div>
+      <NavBar3 />
       <div>
         <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
           <div className="w-full px-6 py-4 mt-6 overflow-hidden bg-white shadow-md sm:max-w-md sm:rounded-lg sm:mt-50 ">
